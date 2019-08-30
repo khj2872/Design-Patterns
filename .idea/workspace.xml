@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="765fc456-1f67-46c0-aa1e-f4a08b159038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/swing/SwingObserverExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/HeatIndexDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weather/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weatherObservable/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weatherObservable/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weatherObservable/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weatherObservable/HeatIndexDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weatherObservable/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weatherObservable/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/weatherObservable/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,19 +43,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/observer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/decorator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\IDEA_workspace\Design-Patterns\src\observer\weatherObservable" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="observer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="observer.weatherObservable" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="observer" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IDEA_workspace\Design-Patterns\src\decorator" />
+      <recent name="E:\workspace\IDEA_workspace\Design-Patterns\src\observer" />
+      <recent name="E:\workspace\IDEA_workspace\Design-Patterns\src\observer\weatherObservable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,13 +72,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwingObserverExample">
+  <component name="RunManager" selected="Application.StarbuzzCoffee">
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.MiniDuckSimulator" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="observer.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.StarbuzzCoffee" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.SwingObserverExample" />
         <item itemvalue="Application.WeatherStation (1)" />
         <item itemvalue="Application.WeatherStation" />
@@ -147,7 +159,10 @@
       <option name="presentableId" value="Default" />
       <updated>1566991724690</updated>
       <workItem from="1566991725880" duration="7899000" />
-      <workItem from="1567049029096" duration="15369000" />
+      <workItem from="1567049029096" duration="16168000" />
+      <workItem from="1567079533147" duration="2490000" />
+      <workItem from="1567124621448" duration="1197000" />
+      <workItem from="1567136848721" duration="10056000" />
     </task>
     <servers />
   </component>
