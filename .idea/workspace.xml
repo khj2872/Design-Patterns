@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="765fc456-1f67-46c0-aa1e-f4a08b159038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/factory/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/ChicagoStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/ChicagoStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/ChicagoStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/NYStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/NYStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/NYStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/PizzaStoreDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/RemoteControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/StereoOnWithCDCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,47 +35,64 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/decorator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="command" />
       <recent name="factory" />
       <recent name="observer" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="observer.weatherObservable" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\IDEA_workspace\Design-Patterns\src\decorator" />
       <recent name="E:\workspace\IDEA_workspace\Design-Patterns\src\observer" />
       <recent name="E:\workspace\IDEA_workspace\Design-Patterns\src\observer\weatherObservable" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="observer.weatherObservable" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.PizzaStoreDrive">
+  <component name="RunManager" selected="Application.RemoteControlTest">
     <configuration name="PizzaStoreDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory.PizzaStoreDrive" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.RemoteControlTest" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,29 +139,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.weather.WeatherStation" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="observer.weather.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteControlTest" />
         <item itemvalue="Application.PizzaStoreDrive" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.SwingObserverExample" />
         <item itemvalue="Application.WeatherStation (1)" />
-        <item itemvalue="Application.WeatherStation" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -163,11 +176,17 @@
       <workItem from="1567079533147" duration="2490000" />
       <workItem from="1567124621448" duration="1197000" />
       <workItem from="1567136848721" duration="16229000" />
+      <workItem from="1615037087202" duration="29000" />
+      <workItem from="1615083599714" duration="1103000" />
+      <workItem from="1615091057915" duration="538000" />
+      <workItem from="1615091651811" duration="1160000" />
+      <workItem from="1615092855773" duration="1383000" />
+      <workItem from="1615098077563" duration="9702000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -175,11 +194,26 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="커맨드 패턴 임시 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="커맨드 패턴 임시 커밋" />
   </component>
 </project>
